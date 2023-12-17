@@ -1,0 +1,137 @@
+
+a {
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+    height: 40px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--main-blue-color);
+    padding: 8px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: rgb(221, 221, 221, 0.6);
+}
+
+.card_wrapper {
+    display: flex;
+    border-left: solid 10px lightgray;
+    padding-left: 10%;
+    margin: 50px auto;
+}
+
+.card_left {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+}
+
+.card_title {
+    color: var(--main-blue-color);
+    width: 75%;
+    font-weight: 700;
+}
+
+.card_subtitle {
+    color: lightgray;
+    margin: 12px 0px;
+}
+
+.card_list_links {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 80px;
+}
+
+.card_link {
+    margin-bottom: 40px;
+}
+
+.card_list_links_left, .card_list_links_right {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    position: relative;
+    width: 500px;
+    border: none;
+    border-radius: 20px;
+}
+
+.back_card {
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    transform: rotateZ(3deg);
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 20px;
+    background-color: rgb(133, 133, 133, 0.6);
+    z-index: -1;
+}
+
+.card_img {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card_title_2, .card_text, .card_button, .card_buttons_right_left {
+    position: absolute;
+    background: none;
+}
+
+.card_title_2 {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    bottom: 30%;
+    left: 10%;
+}
+
+.card_text {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    bottom: 20%;
+    left: 10%;
+}
+
+.card_button {
+    border: none;
+    border-radius: 5px;
+    background-color: deepskyblue;
+    color: white;
+    bottom: 5%;
+    left: 5%;
+    padding: 10px 35px;
+    transition: all 0.2s ease-in-out;
+}
+
+.card_button:hover {
+    filter: brightness(150%);
+}
+ 
+.card_buttons_right_left {
+    display: flex;
+    top: 20px;
+    right: 20px;
+}
+
+.left, .right {
+    background: none;
+    border: none;
+}
+
+.left>img, .right>img {
+    width: 45px;
+}

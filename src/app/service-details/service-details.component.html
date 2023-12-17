@@ -1,0 +1,11 @@
+<section class="services">
+    <app-card [title]="titreBan" [text]="textBan" [image]="imageBan"></app-card>
+    
+    <div class="serviceCards">
+        <app-service-cards class="serviceCard" *ngFor="let card of serviceCardsData" [title]="card.title" [subtitle]="card.subtitle" [desc1]="card.desc1" [desc]="card.desc" [image]="card.image"></app-service-cards>
+    </div>
+
+    <div class="lastCard">
+        <app-last-card></app-last-card>
+    </div>
+</section>

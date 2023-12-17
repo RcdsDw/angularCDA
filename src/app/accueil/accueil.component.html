@@ -1,0 +1,45 @@
+<section class="accueil">
+    <div class="carousel_links_wrapper">
+        <app-carousel></app-carousel>
+        <div class="list_links">
+            <a href="#" class="link">Flux documentaire</a>
+            <a href="#" class="link">Studio de développement</a>
+            <a href="#" class="link">L'atelier numérique</a>
+            <a href="#" class="link">Livraison urbaine</a>
+            <a href="#" class="link">Service postal</a>
+            <a href="#" class="link">Conciergerie d'entreprise</a>
+            <a href="#" class="link">Formations</a>
+        </div>
+    </div>
+    <div class="cards">
+        <app-little-card class="card" *ngFor="let card of littleCardsData" [title]="card.title" [image]="card.image"></app-little-card>
+    </div>
+    <div>
+        <app-step-title></app-step-title>
+    </div>
+    <div class="squareCards">
+        <app-square-card class="squareCard" *ngFor="let card of squareCardsData" [text]="card.text" [title]="card.title"></app-square-card>
+    </div>
+    <div class="switchCards">
+        <app-switch-card></app-switch-card>
+        <app-step-title [text]="stepText"></app-step-title>
+    </div>
+    <div class="colorCards">
+        <app-color-cards [ngClass]="card.color" *ngFor="let card of colorCardsData" [title]="card.title" [color]="card.color"></app-color-cards>
+    </div>
+    <div class="reliefCard">
+        <app-relief-card></app-relief-card>
+    </div>
+    <div class="verticalWrapper">
+        <div class="verticalText">
+            <h2 class="verticalTitle">Découvrez nos derniers <span>projets & cas d'études</span></h2>
+            <a href="#" class="verticalLink">Voir tous les projets</a>
+        </div>
+        <div class="verticalCards">
+            <app-vertical-card class="verticalCard" *ngFor="let card of verticalCardsData" [title]="card.title" [desc]="card.desc" [image]="card.image"></app-vertical-card>
+        </div>
+    </div>
+    <div class="lastCard">
+        <app-last-card></app-last-card>
+    </div>
+</section>

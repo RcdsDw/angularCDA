@@ -1,0 +1,29 @@
+.navbarWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+    width: 80%;
+}
+.navbarImg>a>img {
+    width: 90px;
+    height: 40px;
+}
+
+.navbarLink {
+    font-size: 18px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--main-blue-color);
+    font-weight: 800;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbarLink>img {
+    width: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbarLink:hover, .navbarLink>img:hover {
+    text-decoration: underline;
+    filter: brightness(200%);
+}

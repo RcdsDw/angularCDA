@@ -1,0 +1,79 @@
+.metiers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.verticalWrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.verticalCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.verticalCard {
+    margin-bottom: 50px;
+    width: 30%;
+}
+
+.presentation {
+    width: 60%;
+    height: 650px;
+    border-radius: 20px;
+    background-color: rgb(225, 225, 225);
+    color: var(--main-blue-color);
+}
+
+.img {
+    width: 100%;
+    height: 150px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+.title, .message, .signature {
+    padding: 25px;
+}
+
+.title {
+    margin-top: 25px;
+    font-weight: 800;
+}
+
+.message {
+    font-size: 18px;
+}
+
+.signature {
+    font-style: italic;
+}
+
+.verticalText {
+    display: flex;
+    justify-content: space-between;
+    text-wrap: wrap;
+    color: var(--main-blue-color);
+}
+
+.verticalTitle {
+    font-size: 50px;
+    text-wrap: wrap;
+}
+
+.verticalTitle>span {
+    font-weight: 700;
+}
+
+.verticalLink {
+    font-weight: 600;
+    color: var(--main-blue-color);
+}

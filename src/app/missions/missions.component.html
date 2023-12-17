@@ -1,0 +1,37 @@
+<section class="missions">
+    <app-card [title]="titreBan" [text]="textBan" [image]="imageBan"></app-card>
+
+    <div class="texts">
+        <div class="text">
+            <p>Implantée à Pau (Sud-Ouest), en Nouvelle-Aquitaine (France), <span>STEP</span> est une
+                entreprise citoyenne et responsable qui mise sur l’humain et sa diversité. Expert du
+                traitement des flux documentaires et de l’environnement informatique associé,
+                <span>STEP</span> s’est imposé, en une vingtaine d'années dans le domaine des <span>services 
+                    numériques</span> et accompagne aujourd’hui de grands comptes et de nombreuses
+                PMEI. Elle démontre que la compétitivité et le développement de <span>services
+                    innovants</span> à destination des professionnels (ingénierie informatique, gestion des
+                flux documentaires…) riment avec insertion sociale et que la fracture numérique
+                n’est pas une fatalité.
+            </p>
+        </div>
+        <div class="text">
+            <p>Entreprise engagée en Nouvelle-Aquitaine, elle a su diversifier son offre au fil du
+                temps et propose un modèle vertueux sur l’ensemble de ses <span>pôles d’activité</span> via
+                des solutions globales tout en ayant à cœur de promouvoir la responsabilité vis à
+                vis du territoire, de la collectivité, ou des personnes aux parcours fragilisés qu’elle
+                rencontre et soutient, sans crainte d’associer compétitivité et offre de services.
+                <span>STEP</span> , c’est plusieurs métiers dédiés, de la gestion des flux documentaires à la
+                formation au numérique, en passant par les <span>services de territoire</span>, le tout associé
+                à des expertises pointues.
+            </p>
+        </div>
+    </div>
+
+    <div class="horizontalCards">
+        <app-horizontal-cards class="horizontalCard" *ngFor="let card of horizontalCardsData" [title]="card.title" [text]="card.text" [image]="card.image"></app-horizontal-cards>
+    </div>
+
+    <div class="lastCard">
+        <app-last-card></app-last-card>
+    </div>
+</section>

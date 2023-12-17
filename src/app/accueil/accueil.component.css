@@ -1,0 +1,121 @@
+.accueil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel_links_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.list_links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link {
+    text-decoration: none;
+    margin: 65px 0 0 0;
+    font-weight: 700;
+    color: var(--main-blue-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 45px auto
+}
+
+.card {
+    width: 45%;
+    border: none;
+}
+
+.squareCards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.squareCard {
+    width: 30%;
+}
+
+.colorCards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+.orange {
+    background-color: orange;
+    border-radius: 20px;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.green {
+    background-color: green;
+    border-radius: 20px;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.blue {
+    background-color: blue;
+    border-radius: 20px;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+
+.verticalWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    padding-top: 45px;
+    border-top: 2px solid rgb(173, 173, 173);
+}
+
+.verticalCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 45px;
+    width: 100%;
+}
+
+.verticalCard {
+    margin-bottom: 50px;
+    width: 30%;
+}
+
+.verticalText {
+    display: flex;
+    justify-content: space-between;
+    text-wrap: wrap;
+    color: var(--main-blue-color);
+}
+
+.verticalTitle {
+    font-size: 50px;
+    text-wrap: wrap;
+}
+
+.verticalTitle>span {
+    font-weight: 700;
+}
+
+.verticalLink {
+    font-weight: 600;
+    color: var(--main-blue-color);
+}

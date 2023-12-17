@@ -1,0 +1,28 @@
+.missions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.texts {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 25px auto;
+    color: var(--main-blue-color);
+}
+
+.text {
+    width: 45%;
+}
+
+span {
+    font-weight: 900;
+}
+
+.horizontalCards {
+    width: 80%;
+    margin: 45px auto;
+}

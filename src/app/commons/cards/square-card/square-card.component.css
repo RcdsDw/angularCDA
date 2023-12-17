@@ -1,0 +1,29 @@
+.squareCard {
+    height: 220px;
+    margin: 25px 0; 
+    padding: 25px;
+    border: 2px solid rgb(182, 182, 182, 0.7);
+    border-radius: 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.squareCard:hover {
+    border: 2px solid var(--main-blue-color);
+    transform: scale(1.05);
+}
+
+
+.squareImg {
+    width: 80px;
+    opacity: 0.5;
+}
+
+.squareTitle {
+    font-weight: 600;
+    color: var(--main-blue-color)
+}
+
+.squareText {
+    font-weight: 600;
+    color: var(--main-blue-color);
+}

@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-bottom: 50px;
+    color: var(--main-blue-color);
+}
+
+.card_header {
+    display: flex;
+    width: 70%;
+    margin: 15px auto;
+    background-color: rgba(212, 212, 212, 0.576);
+    border-radius: 10px;
+    padding: 25px 0;
+}
+
+.card_titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_title {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.card_subtitle {
+    font-size: 15px;
+}
+
+.card_image {
+    margin: 0 25px;
+    width: 70px;
+}
+
+.card_desc, .card_desc1 {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 15px auto;
+}

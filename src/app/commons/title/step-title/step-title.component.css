@@ -1,0 +1,17 @@
+.titleQuestion {
+    display: flex;
+    align-items: center;
+    margin: 45px 0;
+}
+
+.imgQuestion {
+    width: 85px;
+    height: 38px;
+    margin-right: 8px;
+}
+
+.textQuestion {
+    color: var(--main-blue-color);
+    font-weight: 700;
+    margin: 0;
+}

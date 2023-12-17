@@ -1,0 +1,27 @@
+<section class="metiers">
+    <app-card [title]="titreBan" [text]="textBan" [image]="imageBan"></app-card>
+
+    <div class="verticalWrapper">
+        <div class="verticalText">
+            <h2 class="verticalTitle">Découvrez nos <span>métiers</span></h2>
+        </div>
+        <div class="verticalCards">
+            <app-vertical-card class="verticalCard" *ngFor="let card of verticalCardsData" [title]="card.title" [desc]="card.desc" [image]="card.image"></app-vertical-card>
+            <div class="presentation">
+                <img class="img" src="../../assets/image1.jpg" alt="">
+                <h2 class="title">Quelles applications pour nos métiers?</h2>
+
+                <p class="message">" STEP est une entreprise comme les autres, qui se doit d’avoir
+                    des résultats pour pérenniser ses actions. Mais nous démontrons
+                    jour après jour que l’on peut allier efficacité économique, finalité
+                    sociale et responsabilité environnementale "</p>
+
+                <p class="signature">Kenny Bertonazzi, Directeur Général de Step</p>  
+            </div>
+        </div>
+    </div>
+    
+    <div class="lastCard">
+        <app-last-card></app-last-card>
+    </div>
+</section>

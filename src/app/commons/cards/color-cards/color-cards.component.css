@@ -1,0 +1,25 @@
+.card {
+    background: none;
+    border: none;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    padding: 8px;
+}
+
+.number_card {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-left: 35px;
+    font-size: 45px;
+    border-bottom: 1px solid white;
+}
+
+.text_card, .title_card {
+    padding-left: 30px;
+}
+
+.title_card {
+    font-size: 26px;
+}
